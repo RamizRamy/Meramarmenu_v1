@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meramar</title>
+    <link rel="icon" type="image/png" href="\Meramar\images\favicon.ico" />
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.min.css"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Cairo", sans-serif;
+        box-sizing: border-box;
+      }
+
+      .image-container {
+        text-align: center;
+        margin: 20px 0;
+      }
+
+      .im {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+        border-radius: 8px;
+      }
+
+      .ar {
+        font-family: "Cairo", sans-serif;
+        text-align: center;
+        font-size: 18px;
+        margin: 20px 10px;
+        padding: 0 10px;
+        line-height: 1.6;
+      }
+
+      .navbar {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+        background-color: #555;
+        padding: 10px;
+      }
+
+      .navbar a {
+        color: #f3e9e9;
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .navbar a:hover {
+        background-color: #000;
+      }
+
+      @media (max-width: 768px) {
+        .ar {
+          font-size: 16px;
+        }
+
+        .navbar {
+          gap: 0.5rem;
+        }
+
+        .navbar a {
+          padding: 0.4rem 0.8rem;
+        }
+      }
+
+      @media (max-width: 480px) {
+        .ar {
+          font-size: 14px;
+        }
+
+        .navbar {
+          flex-direction: column;
+        }
+
+        .navbar a {
+          padding: 0.5rem;
+          width: 100%;
+          text-align: center;
+        }
+      }
+
+      a {
+        text-decoration: none;
+        color: red;
+      }
+
+      pre {
+        white-space: normal;
+        font-family: "Cairo", sans-serif;
+        line-height: 1.8;
+        padding: 10px;
+        margin: 0;
+      }
+
+      .footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+      }
+
+      /* Responsive footer font sizes */
+      @media (max-width: 768px) {
+        .footer p {
+          font-size: 14px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <a href="about.html" style="color: red">About us</a>
+      <a href="index.html" class="arabic">بيتزا</a>
+      <a href="crepes.html" class="arabic">كريب</a>
+      <a href="meals.html" class="arabic">وجبات</a>
+      <a href="grilled.html" class="arabic">مشويات</a>
+      <a href="sandwishes.html" class="arabic">ساندوتشات</a>
+      <a href="juice.html" class="arabic">عصائر</a>
+      <a href="drinks.html" class="arabic">مشروبات ساخنة</a>
+    </nav>
+
+    <!-- Responsive Image -->
+    <div class="image-container">
+      <img src="mera.jpg" alt="logo" class="im" />
+    </div>
+
+    <!-- Text Content -->
+    <p class="ar">
+      استعداد تام لتجهيز الولائم و العزومات و العقائق و توريد الوجبات للشركات و
+      المصانع
+    </p>
+
+    <!-- Location Info -->
+    <pre>
+العنوان 👈  <a href="https://maps.app.goo.gl/qskvkmk8A9VE5bTk8">السلام 1 امام بوابة الجامعة الجانبية بعد الفرن البلدي</a>
+    </pre>
+
+    <!-- Contact Info -->
+    <pre>
+        تواصل معنا عن طريق 👇
+        <p>&nbsp;</p>
+        Tel: 01148711479 - 01227047585 <i class="bi bi-telephone-fill"></i> 
+        <p>&nbsp;</p>       
+        <a href="https://www.facebook.com/profile.php?id=100063801679832&mibextid=ZbWKwL">مطعم ميرامار</a> <i class="bi bi-facebook"></i>
+    </pre>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+      <p>&copy; 2024 Meramar. All rights reserved.</p>
+      <p>Developed by Ramiz Ramy in cooperation with Hamada</p>
+    </footer>
+  </body>
+</html>
